@@ -159,7 +159,7 @@ tasks:
   # Downloading Qbox resources
   - action: download_file
     path: ./tmp/qbx_core.zip
-    url: https://github.com/qbox-project/qbx_core/releases/latest/download/qbx_core.zip
+    url: https://github.com/daixso/qbx_core/archive/refs/tags/v1.20.1.zip
   - action: unzip
     dest: ./resources/[qbx]
     src: ./tmp/qbx_core.zip
